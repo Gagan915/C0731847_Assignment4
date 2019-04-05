@@ -15,6 +15,8 @@ namespace C0731847_Assignment4
         {
             Program p = new Program();
             p.Beowulf = new ArrayList();
+            p.ReadTextFiles();
+            Console.ReadLine();
 
         }
         public void Run()
@@ -22,7 +24,7 @@ namespace C0731847_Assignment4
         public void ReadTextFiles()
         {
             //Read file using StreamReader. reads file line by line
-            using (StreamReader file = new StreamReader("U:/Users/731847/Assignment4"))
+            using (StreamReader file = new StreamReader("U:/Users/731847/Assignment4/Beowulf.txt"))
             {
                 int counter = 0;
                 string ln;
