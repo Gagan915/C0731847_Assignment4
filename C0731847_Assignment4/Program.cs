@@ -22,7 +22,7 @@ namespace C0731847_Assignment4
         public void ReadTextFiles()
         {
             //Read file using StreamReader. reads file line by line
-            using (StreamReader file = new StreamReader("c:/area51/beowulf.text"))
+            using (StreamReader file = new StreamReader("U:/Users/731847/Assignment4"))
             {
                 int counter = 0;
                 string ln;
@@ -44,8 +44,12 @@ namespace C0731847_Assignment4
 
             foreach (char c in line)
             {
-                if(char.IsLetter(c)) { countletters++;
-                if(char.IsWhiteSpace(c)) { countSpaces++; }
+                if
+                    (char.IsLetter(c))
+                { countletters++;
+                if
+                        (char.IsWhiteSpace(c))
+                    { countSpaces++; }
                 }
                 return countSpaces;
 
