@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Collections;
 
 namespace C0731847_Assignment4
 {
     class Program
     {//C0731847 gagandeep Kaur Waraich
+        ArrayList Beowulf;
         static void Main(string[] args)
         {
             Program p = new Program();
@@ -33,7 +36,7 @@ namespace C0731847_Assignment4
             }
         }
 
-        public  int FindNumberofBlankSpaces(string line)
+        public  int FindNumberOfBlankSpaces(string line)
         {
             //https://stackoverflow.com/questions/17812566/count-words-and-spaces-in-string-c-sharp
             int countletters = 0;
