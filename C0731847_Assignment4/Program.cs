@@ -46,9 +46,11 @@ namespace C0731847_Assignment4
             {
                 if
                     (char.IsLetter(c))
-                { countletters++;
-                if
-                        (char.IsWhiteSpace(c))
+                {
+                    countletters++;
+                }
+                    if
+                            (char.IsWhiteSpace(c))
                     { countSpaces++; }
                 }
                 return countSpaces;
@@ -56,4 +58,4 @@ namespace C0731847_Assignment4
             }
         }
     }
-}
+
