@@ -37,6 +37,7 @@ namespace C0731847_Assignment4
                 }
                 file.Close();
                 Console.WriteLine($"File has {counter} lines.");
+                Console.WriteLine($"File has {counter * 5} Words.");
             }
         }
 
